@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+}
+/* navigation bar */
+.navigationcss{
+    background-color: rgb(4, 4, 122);
+}
+/* end of navigation bar */
+
+/* home page */
+.homepage{
+    background-color: rgb(4, 4, 122);
+}
+.purchasenow:hover{
+    background-color: white;
+    color: black;
+}
+/* end of home page */
+
+/* multiple layouts */
+.multiple{
+    /* background-color: rgb(246, 246, 248); */
+    /* background-color: #f7f9fc; */
+    background-color:#e8f0f8;
+}
+.layouts:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px #e8f0f8;
+    cursor: pointer;
+    transition: all .15s;
+}
+.badge-primary:hover{
+    cursor:auto;
+}
+/* end of multiple layouts */
+
+/* multiple dashboards */
+.dashboards:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 4px 12px 0 rgba(15,70,153,.15);
+    transition: all .15s ease-in-out;
+}
+/* end of multiple dashboards */
+
+/* futures you'll love */
+.features{
+    background-color:#e8f0f8;
+}
+.icon1{
+    margin-right: 35px;
+}
+.icon2{
+    margin-right: 30px;
+}
+.icon3{
+    margin-right: 20px;
+}
+.icon4{
+    margin-right: 30px;    
+}
+.icon5{
+    margin-right: 20px;
+}
+.icon6{
+    margin-right: 15px;
+}
+/* end of futures you'll love */
+
+/* question and answers */
+.questions{
+    background-color: #e8f0f8;;
+}
+.card-header:hover{
+    cursor: pointer;
+}
+.card-header{
+    background-color: white;
+    border-radius: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+/* end of questions and answers */
+
+/* purchase now */
+.purchase{
+    background-color: rgb(4, 4, 122);
+    color: white;
+}
+/* end of purchase now */
